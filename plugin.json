@@ -1,0 +1,36 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "dataiku-excel-coach",
+  "version": "0.1.0",
+  "description": "Learn Dataiku through a guided migration of your Excel workbook, using the existing Dataiku Headless and migration skills.",
+  "author": {
+    "name": "Ned Martorell"
+  },
+  "keywords": [
+    "dataiku",
+    "excel",
+    "learning",
+    "migration",
+    "visual-recipes"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Dataiku Excel Coach",
+        "shortDescription": "Learn Dataiku with Excel",
+        "longDescription": "Learn Dataiku by migrating a process from your own Excel workbook. Confirm the business logic, select a migration pace, and inspect visual recipes with guided Excel comparisons and practice. Requires the separately installed Dataiku Headless and Dataiku Migrate plugins and access to a Dataiku instance.",
+        "developerName": "Ned Martorell",
+        "category": "Data & Analytics",
+        "capabilities": [
+          "Interactive"
+        ],
+        "defaultPrompt": [
+          "Help me learn Dataiku by migrating one process from my Excel workbook."
+        ],
+        "brandColor": "#176B63",
+        "composerIcon": "./assets/excel-coach.svg",
+        "logo": "./assets/excel-coach.svg"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "excel-coaching-local",
+  "interface": {
+    "displayName": "Excel Coaching"
+  },
+  "plugins": [
+    {
+      "name": "dataiku-excel-coach",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Data & Analytics"
+    }
+  ]
+}

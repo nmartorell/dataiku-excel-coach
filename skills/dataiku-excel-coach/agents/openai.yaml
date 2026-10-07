@@ -1,0 +1,4 @@
+interface:
+  display_name: "Dataiku Excel Coach"
+  short_description: "Learn Dataiku by migrating your own Excel workflow"
+  default_prompt: "Use $dataiku-excel-coach to help me migrate one process from my Excel workbook into Dataiku, teaching me as we go."
